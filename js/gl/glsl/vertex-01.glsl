@@ -17,9 +17,14 @@ void main() {
   } else if (uIndex < 6.) {
     float pr = smoothstep(0., 0.5 - sin(pos.y), uProg) * 5.;
     pos.z += pr;
-  } else {
+  } else if (uIndex < 9.) {
     pos.z += sin(pos.y * 5. + uTime) * 2. * uProg;
     wave = pos.z;
+  } 
+  else
+  {
+    float pr = smoothstep(0., 0.5 - sin(pos.y), uProg) * 5.;
+    pos.z += pr;
   }
 
   vUv = uv;

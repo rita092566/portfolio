@@ -5,6 +5,8 @@ import Plane from './gl/Plane';
 import Slideshow from './gl/Slideshow';
 import { preloadImages } from './utils';
 
+
+
 preloadImages().then(() => {
   document.body.classList.remove('loading');
   
