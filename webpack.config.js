@@ -16,9 +16,7 @@ module.exports = {
     'index10': './js/index10.js',
     'index11': './js/index11.js',
     'index12': './js/index12.js',
-    'index13': './js/index13.js',
-    'index-intro': './js/main.js'
-
+    'index13': './js/index13.js'
 
   },  
 
@@ -182,15 +180,7 @@ module.exports = {
       filename: 'index13.html',
       template: 'index13.html',
       inject: true,
-      chunks: ['index12'],
-      hash: true,
-    }),
-
-    new HtmlWebpackPlugin({
-      filename: 'index-intro.html',
-      template: 'index-intro.html',
-      inject: true,
-      chunks: ['index-intro'],
+      chunks: ['index13'],
       hash: true,
     }),
 

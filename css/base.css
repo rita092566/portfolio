@@ -10,18 +10,20 @@
 
 body {
     margin: 0;
-    --color-text: #3b343a;
-    --color-bg: #f5f4f4;
-    --color-link: #3b343a;
-    --color-link-hover: #7e9fdd;
+    --color-text: #fff;
+    --color-bg: #5A5B5E;
+    --color-link: #fff;
+    --color-link-hover: #96B8ED;
     --color-primary: #88e7c4;
-    --color-secondary: #7e9fdd;
-    --color-description: #3b343a;
+    --color-secondary: #96B8ED;
+    --color-description: #fff;
     color: var(--color-text);
     background-color: var(--color-bg);
     font-family: pragmatica-extended, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+
 }
 
 /* Page Loader */
@@ -133,8 +135,8 @@ a:focus {
     font-family: vortice-concept, sans-serif;
     font-weight: 400;
     margin: 0;
-    -webkit-text-stroke: 1.5px var(--color-primary);
-    text-stroke: 1.5px var(--color-primary);
+    -webkit-text-stroke: 1.2px var(--color-primary);
+    text-stroke: 1.2px var(--color-primary);
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     color: transparent;
@@ -159,9 +161,11 @@ a:focus {
     margin: 0px 5px 30px 50px;
     max-width: 500px;
     align: left;
-    line-height: 18px;
+    line-height: 20px;
     font-size: xx-small;
     letter-spacing: 0.8px;
+    font-family: pragmatica-extended, sans-serif;
+    font-weight: 400;
 }
 
 .slideshow__img-wrap {
@@ -211,7 +215,6 @@ a:focus {
     font-weight: 200;
     color: var(--color-primary);
     font-size: 3px;
-    cursor: pointer;
     padding-right: 60px;
 }
 
@@ -287,8 +290,8 @@ a:focus {
     font-family: vortice-concept, sans-serif;
     font-weight: 400;
     margin: 0;
-    -webkit-text-stroke: 1.5px var(--color-primary);
-    text-stroke: 1.5px var(--color-primary);
+    -webkit-text-stroke: 1.2px var(--color-primary);
+    text-stroke: 1.2px var(--color-primary);
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     color: transparent;
