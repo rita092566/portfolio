@@ -158,14 +158,14 @@ a:focus {
 }
 
 .slideshow__intro-description {
-    margin: 0px 5px 30px 50px;
+    margin: 0px 5px 15px 50px;
     max-width: 500px;
     align: left;
-    line-height: 20px;
-    font-size: xx-small;
+    line-height: 19px;
+    font-size: 0.85rem;
     letter-spacing: 0.8px;
     font-family: pragmatica-extended, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .slideshow__img-wrap {
@@ -193,7 +193,7 @@ a:focus {
 .original__img {
     max-width: 650px;
     height: 250px;
-    margin: 40px 0px 20px 50px;
+    margin: 5px 0px 20px 50px;
 }
 
 .slideshow__img--current {
