@@ -7,7 +7,8 @@
     "clean": "rm -rf dist",
     "dev": "webpack --mode=development",
     "prod": "webpack --mode=production",
-    "watch": "webpack-dev-server"
+    "watch": "webpack-dev-server",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://rita092566.github.io/portfolio/",
   "dependencies": {
     "file-loader": "^5.0.2",
+    "gh-pages": "^4.0.0",
     "glsl-noise": "0.0.0",
     "glslify": "^7.0.0",
     "glslify-loader": "^2.0.0",
