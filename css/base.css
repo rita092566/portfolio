@@ -196,6 +196,12 @@ a:focus {
     margin: 5px 0px 20px 50px;
 }
 
+.bond__img {
+    max-width: 600px;
+    height: 350px;
+    margin: 5px 0px 20px 50px;
+}
+
 .slideshow__img--current {
     opacity: 1;
 }
