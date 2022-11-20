@@ -40,16 +40,25 @@ export default class extends GlObject {
     this.add(this.mesh);
     
     Gl.scene.add(this);
-    this.addEvents();
+    this.addEvents(index);
   }
 
   updateTime(time) {
     this.material.uniforms.uTime.value = time;
   }
 
-  addEvents() {
+  addEvents(index) {
     this.mouseEnter();
     this.mouseLeave();
+    this.mouseClick(index+2);
+  }
+
+
+  mouseClick(index) {
+    this.el.addEventListener('mouseup', () => {
+      console.log('http://localhost:8000/index' + index + '.html')
+      window.open('http://localhost:8000/index' + index + '.html','_self');
+    });
   }
 
   mouseEnter() {
