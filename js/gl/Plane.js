@@ -56,8 +56,8 @@ export default class extends GlObject {
 
   mouseClick(index) {
     this.el.addEventListener('mouseup', () => {
-      console.log('http://localhost:8000/index' + index + '.html')
-      window.open('http://localhost:8000/index' + index + '.html','_self');
+      console.log('https://rita092566.github.io/portfolio/index' + index + '.html')
+      window.open('https://rita092566.github.io/portfolio/index' + index + '.html','_self');
     });
   }
 
